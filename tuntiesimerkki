@@ -1,0 +1,28 @@
+# Sijoitetaan merkkijono muuttujaan name
+name = "Viivi" + "Virtanen"
+age = 6 + 6
+print(name)
+print(age)
+# tulostetaan samalla print-komennolla
+# tyyppimuunnos 12 -> "12"
+# age = str(age)
+print(name + ", ikä:" + str(age))
+# Luetaan käyttäjältä syöte ja sijoitetaan se muuttujaan
+name = input("kuka olet?")
+age = input("kuinka vanha olet?")
+
+print(name + ", ikä:" + str(age))
+# Luetaan käyttäjältä syöte ja sijoitetaan se muuttujaan
+name = input("kuka olet?")
+age = input("kuinka vanha olet?")
+print("moi " + name + ",olet "+ age + " vuotta vanha. ")
+# muutetaan käyttäjän syöttämä stringi kokonaisluvuksi (int) ja lisätään 1
+new_age = int(age) + 1
+print("vuoden päästä olet " + str(int(age) + 1) + " vuotta.")
+
+# toinen tapa yhdellä rivillä
+# print("vuoden päästä olet " + str(int(age) + 1 " vuotta. ")
+# tyyppimuunnos voidaan tehdä myös heti syötteen lukemisen yhteydessä:
+# age = int(input("kuinka vanha olet?))
+
+
